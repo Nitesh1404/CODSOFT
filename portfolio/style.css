@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+.head h1 {
+  /* font-size: 3rem; */
+  padding: 0.5rem;
+  letter-spacing: 5px;
+}
+
+.about {
+  /* border: 1px solid black; */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-style: italic;
+}
+.quote h1 {
+  font-size: 5rem;
+}
+.quote h2 {
+  font-size: 3.5rem;
+}
+.quote h3 {
+  font-size: 2rem;
+}
+.btn {
+  width: 100px;
+  padding: 0.25rem;
+  border: 2px solid #e7e7e7;
+  border-radius: 6px;
+  /* width: 6vw; */
+  background-color: #c9c9d2;
+  font-size: 16px;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #c7c7e5;
+}
+
+.nitesh {
+  background-color: #b6ddeb;
+  color: #056e34;
+  font-family: "Quicksand", sans-serif;
+}
+#element {
+  background-color: bisque;
+}
+.Developer {
+  font-family: "Quicksand", sans-serif;
+  color: darkblue;
+}
+
+hr {
+  margin: 2rem 7rem;
+}
+
+.skill h2,
+.projects h2 {
+  margin-left: 7rem;
+  font-size: 2.5rem;
+}
+.skill-main {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-info {
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60vw;
+}
+
+.skill-info ul li {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+#html {
+  list-style-image: url(img/html.png);
+}
+#css {
+  list-style-image: url(img/css.png);
+}
+#js {
+  list-style-image: url(img/javascript.png);
+}
+#java {
+  list-style-image: url(img/java.png);
+}
+#sol {
+  list-style-image: url(img/ethereum.png);
+}
+#node {
+  list-style-image: url(img/node-js.png);
+}
+
+/* project part  */
+
+.project-box {
+  /* border: 1px solid black; */
+  /* height: 60vh; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  border: 1px solid #d3caca;
+  width: 23vw;
+  height: 60vh;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+  box-shadow: 3px 2px 7px #cdcdcd;
+}
+
+.img {
+  padding: 1rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.text p {
+  padding: 0.5rem;
+}

@@ -1,0 +1,101 @@
+@media (max-width: 1050px) {
+  .skill-info {
+    width: 100%;
+  }
+
+  .box {
+    height: auto;
+  }
+}
+
+@media (max-width: 950px) {
+  .quote h1 {
+    font-size: 3rem;
+  }
+  .quote h2 {
+    font-size: 2rem;
+  }
+  .quote h3 {
+    font-size: 1.5rem;
+  }
+  hr {
+    margin: 2rem 4rem;
+  }
+
+  .skill h2,
+  .projects h2 {
+    margin-left: 4rem;
+    font-size: 1.8rem;
+  }
+
+  .skill-info ul li {
+    font-size: 1.5rem;
+  }
+
+  .box {
+    width: 28vw;
+  }
+}
+
+@media (max-width: 585px) {
+  .head h1 {
+    font-size: 1.5rem;
+  }
+  .quote h1 {
+    font-size: 2rem;
+  }
+  .quote h2 {
+    font-size: 1.5rem;
+  }
+  .quote h3 {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 12px;
+    width: 74px;
+  }
+  hr {
+    margin: 2rem 1rem;
+  }
+  .skill h2,
+  .projects h2 {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .skill-info ul li {
+    font-size: 1rem;
+  }
+
+  .project-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 390px) {
+  .quote h1 {
+    font-size: 1.5rem;
+  }
+  .quote h2 {
+    font-size: 1.3rem;
+  }
+  .quote h3 {
+    font-size: 1rem;
+  }
+
+  .skill-info {
+    height: 70vh;
+    width: 40vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .box {
+    width: 65vw;
+  }
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="rsponsive.css">
+</head>
+
+<body>
+	<header class="head">
+		<h1>Portfolio</h1>
+	</header>
+
+	<div class="about">
+		<div class="quote">
+			<h1>Hey! My Name Is <span class="nitesh">Nitesh</span></h1>
+			<h2>I am an <span class="Developer">Developer</span>
+			</h2>
+			<h3>Generally, I <span id="element"></span></h3>
+			<br>
+			<h4><button class="btn"><a href="resume/NiteshResume.pdf">Resume</a></button></h4>
+		</div>
+	</div>
+	<!-- <p>scroll down to see my skills</p> -->
+	<hr>
+	<br>
+
+	<div class="skill">
+		<h2>My Skills: </h2>
+		<div class="skill-main">
+			<div class="skill-info">
+				<ul>
+					<li id="html">HTML</li>
+
+					<li id="css">CSS</li>
+				</ul>
+				<ul>
+					<li id="js">Java Script</li>
+					<li id="java">Java</li>
+				</ul>
+				<ul>
+					<li id="sol">Solidity</li>
+					<li id="node">Node.js</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<div class="projects">
+		<h2> Web Development projects: </h2>
+		<div class="project-box">
+			<div class="box">
+				<div class="img">
+					<img src="projects/dance.png" alt="">
+				</div>
+				<div class="text">
+					<h3>Dance academy</h3>
+					<p>Dance academy is an website which is created using html css . It is basic frontend , the contact
+						page in this website is created in backend using node js and mongodb . All the information from
+						the contact page is saved in mongodb.</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="img">
+					<img src="projects/quickSource.png" alt="">
+				</div>
+				<div class="text">
+					<h3>Quick Source</h3>
+					<p>Quick source is the dynamic website which contain all the 8th semester books for computer
+						department. This is made using html css js node.js mongodb . It has user as well as admin
+						interface.</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="img">
+					<img src="projects/landing.png" alt="">
+				</div>
+				<div class="text">
+					<h3>Eventzyy</h3>
+					<p>Eventzyy is an simple landing page for event planning. It is made using html and css . It is
+						simple frontend page. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="projects">
+		<h2> Blockchain projects: </h2>
+		<div class="project-box">
+			<div class="box">
+				<div class="img">
+					<img src="projects/crowdfunding.png" alt="">
+				</div>
+				<div class="text">
+					<h3>Crowdfunding</h3>
+					<p>Crowdfunding is the blockchain based website, which is made in ethereum environment using
+						solidity. In this user can contribute in certain campaign which is raised , can see deadline of
+						the campaign , can see raised amount etc.</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="img">
+					<img src="projects/voting.png" alt="">
+				</div>
+				<div class="text">
+					<h3>Go-vote</h3>
+					<p>Go-vote is the blockchain based voting website, made in ethereum environment . The main aim of
+						the Go-vote is to make secure and fair voting . In this user can vote, register themself and can
+						see voting result , admin can add candidate etc.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+	<script>
+		var typed = new Typed('#element', {
+			strings: ['<i>Eat_</i>', ' Sleep_', 'Code_', '&amp; Repeat!'],
+			typeSpeed: 50,
+			loop: true
+		});
+
+
+
+
+
+	</script>
+</body>
+
+</html>
